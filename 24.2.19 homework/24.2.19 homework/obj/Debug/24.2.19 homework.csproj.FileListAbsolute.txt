@@ -1,0 +1,7 @@
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\obj\Debug\24.2.19 homework.csprojAssemblyReference.cache
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\obj\Debug\24.2.19 homework.csproj.CoreCompileInputs.cache
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\bin\Debug\24.2.19 homework.exe.config
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\bin\Debug\24.2.19 homework.exe
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\bin\Debug\24.2.19 homework.pdb
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\obj\Debug\24.2.19 homework.exe
+C:\Users\Liron\source\repos\24.2.19 homework\24.2.19 homework\obj\Debug\24.2.19 homework.pdb
