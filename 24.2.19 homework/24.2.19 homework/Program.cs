@@ -12,23 +12,29 @@ namespace _24._2._19_homework
     {
         static void Main(string[] args)
         {
-            Car[] cars = {new Car("mazda", 3, 2011, "blue", 5332, 5),
-            new Car("nissan",6,2000,"red",2332,6),new Car("ford",7,2008,"gray",2556,7)};
+            //Car mazda = new Car("mazda", 3, 2011, "blue", 5332, 5);
+            //Car.SerializeACar("temp", mazda);
+            //Car m = new Car("temp");
+            Car mazda = new Car("mazda", 3, 2011, "blue", 5332, 5);
+            Console.WriteLine( mazda.CarCompare("temp"));
+            Console.WriteLine(mazda);
+           // Car[] cars = {new Car("mazda", 3, 2011, "blue", 5332, 5),
+            //new Car("nissan",6,2000,"red",2332,6),new Car("ford",7,2008,"gray",2556,7)};
             //Car mazda = new Car("mazda", 3, 2011, "blue", 5332, 5);
             //Console.WriteLine(mazda);
-            XmlSerializer myxmlSerializer = new XmlSerializer(typeof (Car[]));
-            using (Stream file = new FileStream(@"c:\temp\xmlfile.xml", FileMode.Create))
-            {
-              myxmlSerializer.Serialize(file, cars);
-            }
-            PrintArray(cars);
-            Car [] cars2;
+            //XmlSerializer myxmlSerializer = new XmlSerializer(typeof (Car[]));
+            //using (Stream file = new FileStream(@"c:\temp\xmlfile.xml", FileMode.Create))
+            //{
+              //myxmlSerializer.Serialize(file, cars);
+            //}
+            //PrintArray(cars);
+            //Car [] cars2;
             //XmlSerializer myxmlSerializer = new XmlSerializer(typeof(Car[]));
-            using (Stream file = new FileStream(@"c:\temp\xmlfile.xml", FileMode.Open))
-            {
-                cars2 = myxmlSerializer.Deserialize(file) as Car[];
-            }
-            PrintArray(cars2);
+            //using (Stream file = new FileStream(@"c:\temp\xmlfile.xml", FileMode.Open))
+            //{
+              //  cars2 = myxmlSerializer.Deserialize(file) as Car[];
+            //}
+            //PrintArray(cars2);
         }
         static void PrintArray(Car [] c)
         {
